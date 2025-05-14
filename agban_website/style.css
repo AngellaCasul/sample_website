@@ -1,0 +1,244 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Or 'Lato', 'Roboto', etc. */
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/technology.jpg'); /* Replace with the path to your wallpaper image */
+    background-size: cover; /* Make the background image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Optional: Make the background image fixed while scrolling */
+    color: #333;
+    line-height: 1.7; /* Improve line spacing for readability */
+    font-size: 16px; /* Good base font size */
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.8); /* Vibrant blue header with some transparency */
+    color: #fff; /* White text on blue */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700; /* Using a bold weight of Exo 2 */
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.8;
+}
+
+nav {
+    background-color: rgba(224, 242, 247, 0.9); /* Very light blue navigation bar with transparency */
+    padding: 10px 0;
+    border-bottom: 1px solid #b0e0e6; /* Light blue border */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Blue links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+section#home {
+    padding: 30px;
+    text-align: left; /* Align text to the left */
+    background-color: rgba(249, 250, 255, 0.9); /* Optional */
+    border-radius: 8px; /* Optional */
+    margin: 20px; /* Optional */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Optional */
+}
+
+section#home h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: left; /* Align heading to the left as well */
+}
+
+section#home img {
+    max-width: 150px;
+    border-radius: 50%;
+    float: left; /* Float image to the left */
+    margin-right: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#home p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #555;
+    text-align: left; /* Ensure paragraphs are also left-aligned */
+}
+
+section#home p:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last paragraph */
+}
+
+section#home strong {
+    color: #007bff;
+    font-weight: 600;
+}
+
+section#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically (if the section has a defined height) */
+    padding: 30px;
+    background-color: rgba(178, 231, 255, 0.8); /* Very light blue background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto; /* Add margin on top and bottom, and center the block horizontally */
+    max-width: 600px; /* Optional: Limit the maximum width of the contact section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+section#contact h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+section#contact p {
+    line-height: 1.7;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1.1em;
+}
+
+section#contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+section#contact a:hover {
+    color: #0056b3;
+}
+
+section#about {
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(248, 250, 255, 0.9); /* Very light blue/gray with transparency */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+section#about h2 {
+    color: #007bff;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+section#about img {
+    max-width: 150px;
+    border-radius: 50%;
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space to the left of the image */
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section#about p {
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+section#about h3 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+section#about ul {
+    list-style-type: square;
+    padding-left: 25px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+section#about ul li {
+    margin-bottom: 5px;
+}
+
+.key-aspects {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(230, 247, 255, 0.9); /* Light blue for a highlighted section with transparency */
+    border-radius: 6px;
+    border-left: 5px solid #007bff; /* Blue accent border */
+}
+
+.key-aspects h3 {
+    margin-top: 0;
+    color: #0056b3; /* Darker blue for emphasis */
+}
+
+.why-hci-matters {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgba(240, 248, 255, 0.9); /* Another shade of light blue with transparency */
+    border-radius: 6px;
+}
+
+.why-hci-matters h3 {
+    color: #0056b3;
+}
+
+.why-hci-matters ul {
+    list-style-type: disc;
+}
+
+section#education {
+    padding: 20px;
+    text-align: center; /* Center the container */
+    background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+    margin: 20px;
+    border-radius: 8px;
+}
+
+section#education h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; /* Arrange images in a column */
+    align-items: center; /* Center images horizontally within the container */
+    gap: 30px; /* Add more space between the images */
+}
+
+.image-container img {
+    max-width: 600px; /* Increased maximum width to 600px */
+    width: 100%; /* Added width: 100% to make them potentially take up more horizontal space */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
